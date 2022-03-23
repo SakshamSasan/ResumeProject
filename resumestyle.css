@@ -1,0 +1,368 @@
+html, body {
+    max-width: 100%;
+
+    height: auto;
+}
+#head {
+	background-image: url("resumepics/bg.jpeg");
+	background-repeat: no no-repeat;
+	background-size: contain;
+	height: auto;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -20px;
+	background-attachment: fixed;
+	opacity: 0.94;
+
+}
+#nav-bar {
+	height: 20%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 2rem;
+}
+.navbar {
+	height: 100%;
+	list-style: none;
+	color: white;
+	text-align: center;
+	
+}
+.navbar li {
+	padding-bottom: 0.25rem;
+	text-decoration: none;
+	margin-left: 1.5rem;
+	margin-right: 3.5rem;
+	margin-bottom: 1.5rem;
+	margin-top: 0rem;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: white;
+}
+.navbar li:hover{
+	transition: 0.3s;
+	border-bottom: 3px solid orange;
+}
+#socials {
+	margin-top:2rem ;
+	height: 80%;
+	width: 100%;
+}
+#my-name {
+	height: 50%;
+	text-align: center;
+	margin: auto;
+	color: white;
+	letter-spacing: 0.6rem;
+	font-family: serif;
+	font-size: 50px;
+	font-weight: bolder;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+
+#handles {
+	margin-top: 3rem;
+	margin-bottom: 6.5rem;
+}
+
+#handles div{
+	
+	height: 2.7rem;
+	width: 2.7rem;
+	display: inline-block;
+	
+	padding-left: 0.625rem;
+	padding-right:0.625rem;;
+	margin-left: 0.75rem;
+	margin-right: 0.75rem;
+	
+}
+#insta:hover {
+	opacity: 0.5;
+	
+}
+#github:hover {
+	opacity: 0.5;
+	
+}
+#linkedin:hover {
+	opacity: 0.5;
+	
+}
+#google:hover {
+	opacity: 0.5;
+	
+}
+#insta {
+	background-image: url("resumepics/insta.png");
+	
+}
+#github {
+	background-image: url("resumepics/gthub.png");
+}
+#linkedin {
+	background-image: url("resumepics/ln.jpg");
+}
+#google {
+	position: static;
+	
+	background-image: url("resumepics/google.png");
+
+}
+#insta,#github,#linkedin,#google {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+
+
+#profilepic {
+	
+	position: relative;
+	display: flex;
+	margin: auto;
+	margin-top: -4rem;
+	height: 15rem;
+	width: 15rem;
+	border-radius: 50%;
+	border-width: 6px;
+	border-style: solid;
+	border-color: black;
+	background-image: url("resumepics/sasan.jpg");
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 2rem;
+}
+#aboutme {
+	display: block;
+	
+	margin: auto;
+	width: 50vw;
+	text-align: center;
+	line-height: 2rem;
+	word-spacing: 0.2rem;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+#skills,#projects,#education {
+	height: auto ;
+	width: 100vw;
+	background-image: linear-gradient(to bottom right,#a1ffce,#faffd1);
+	padding-bottom: 2rem;
+}
+
+#skills h1, #contactme h1, #projects h1, #education h1{
+	font-weight: bolder; color:black;  font-size: 2rem; padding: 2rem; font-family: sans-serif;
+	text-align: center;
+	height: 15%;
+	width: 30%;
+	margin: auto;
+	
+}
+
+#hard,#soft {
+	height: 85%;
+
+	box-sizing: border-box;
+	width: 48%;
+	margin: 0;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	overflow-wrap: break-word;
+	font-family: monospace;
+	font-size: 1.2rem;
+	font-weight: lighter;
+	line-height: 1.5rem;
+}
+
+#divider {
+	
+	width: 0;
+	border: 0.2rem solid black;
+	border-radius: 2rem;
+}
+
+
+#flex-ed {
+	position: relative;
+	max-height: 85%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 2rem;
+	font-size: 1.2rem;
+}
+#seneca,#twelve,#ryan {
+	width: 35%;
+	height: 9rem;
+	margin: 2rem;
+	overflow-wrap: break-word;
+	position: relative;
+
+}
+#twelve {
+	position: relative;
+	left: 50%;
+}
+#glider {
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	left: 47%;
+	width: 0rem;
+	border: 0.25rem dashed skyblue;
+	
+}
+#plane {
+	position: sticky;
+	top: 25%;
+	transform: scale(1.3) rotate(90deg);
+	z-index: 2;
+
+
+}
+#twelve::after {
+	content: ' ';
+	position: absolute;
+	top: 25%;
+	left: -16%;
+	border-radius: 50%;
+	width: 1rem;
+	height: 1rem;
+	background-color: grey;
+	z-index: 1;
+}
+#seneca::after, #ryan::after {
+	content: ' ';
+	position: absolute;
+	top: 25%;
+	right: -30%;
+	border-radius: 50%;
+	width: 1rem;
+	height: 1rem;
+	background-color: grey;
+	z-index: 1;
+}
+#flex-projects>div {
+	
+	min-height: 35%;
+	max-height: 35%;
+	width: 25%;
+	margin: 2rem;
+	background-color: white;
+	padding: 1rem;
+	font-family: monospace;overflow-wrap: break-word; text-align: center;
+	border: 0.125rem solid transparent;
+	border-radius: 1.3rem;
+	
+			
+}
+
+#flex-projects>div:hover {
+	transition: transform 0.3s;
+	transform: scale(1.11);
+}
+.projects-icon{
+	min-height: 7rem;
+	max-height: 7rem;
+	width: 100%;
+	background-color: transparent;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#flex-projects a {
+	font-family: serif; 
+	color: orange;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#flex-projects a:hover{
+	color: orangered;
+}
+
+#contactme{
+	background-image: linear-gradient(to top right,#2857a4,#403066);
+	width: 100vw;
+	height: auto;
+}
+
+#flex-section,#flex-projects,#flex-skills {
+	display: flex;
+	height: auto;
+	width:100%;
+	justify-content: center;
+	flex-wrap: wrap;
+	/*padding:2rem ;*/
+
+
+	
+}
+
+
+
+#contact-form{
+	margin-right: 0.8rem;
+}
+#contact-icons{
+	margin-left: 0.8rem;
+}
+#contact-form, #contact-icons {
+	position: relative;
+	overflow-wrap: break-word;
+	height: 100%;
+	width: 40%;
+	
+	
+
+}
+.custominput {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background-color: transparent;
+	border-bottom: 2px solid orange;
+	padding: 0.5rem;
+	color: white;
+	font-size: 1rem;
+}
+#contact-form input {
+	
+	height: 1.5rem;
+	width: 70%;
+	margin: auto;
+	
+	}
+#contact-form input:focus {
+	outline: none;
+}
+#contact-form textarea{
+		outline: none;
+		width: 70%;
+		height: 2.5rem;
+		margin: auto;
+}
+#contact-form button {
+	font-size: 1rem;
+	position: relative;
+	left: flex-end;
+	pading: 0.1rem;
+	background-color: white;
+	color: orange;
+	font-weight: bolder;
+	/*outline: none;*/
+	border: none;
+	border-radius: 0.4rem;
+	
+
+}
