@@ -91,6 +91,9 @@ html, body {
 .dropdown:hover #menu-div{
 	transform: scale(1) ;
 }
+#bars:active #menu-div {
+	transform: scale(1) ;
+}
 #nav-bar {
 	height: 20%;
 	width: 100%;
