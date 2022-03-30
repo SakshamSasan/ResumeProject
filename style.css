@@ -1,20 +1,95 @@
 html, body {
-    max-width: 100%;
-
+	max-width: 100%;  
+	overflow-x: clip;
     height: auto;
 }
 #head {
+
 	background-image: url("resumepics/bg.jpeg");
 	background-repeat: no no-repeat;
 	background-size: contain;
 	height: auto;
 	width: 100vw;
-	display: flex;
-	flex-wrap: wrap;
+	/*display: flex;
+	flex-wrap: wrap;*/
 	margin-top: -20px;
 	background-attachment: fixed;
 	opacity: 0.94;
+	position: relative;
+	
+	
+}
+#bars {
+	color: white;
+	margin: 2rem;
+	transform: scale(1.5);
+	vertical-align: top;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.5rem;
+	display: none;
+}
 
+@media screen and (max-width: 900px) {
+
+	#bars {
+		display: inline-block;
+	}
+	.navbar {
+		visibility: hidden;
+	}
+	#profilepic{
+		transform: scale(0.8);
+
+	}
+
+	#glider {
+
+		left: 10% !important;
+		border-width: 0.2rem !important;
+	}
+	#seneca,#twelve,#ryan {
+		left: 28% !important;
+	}
+	#flex-ed>div::after {
+		right: 0% !important;
+		left: -49% !important;
+	}
+}
+
+#menu-div {
+	transform: scale(0);
+	opacity: 0.9;
+	background-color: black;
+	width: 20vw;
+	height: auto;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: 3rem;
+	right: 3rem;
+	justify-content: center;
+	padding: 1.3rem;
+	transition: all 0.1s;
+}
+#menu-div>div {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	font-size: 1rem;
+	font-family: sans-serif;
+}
+#menu-div a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
+
+}
+#menu-div a:hover {
+	border-bottom: 2px solid orange;
+	transition: all 0.3s;
+}
+.dropdown:hover #menu-div{
+	transform: scale(1) ;
 }
 #nav-bar {
 	height: 20%;
@@ -31,7 +106,7 @@ html, body {
 	text-align: center;
 	
 }
-.navbar li {
+.navbar li{
 	padding-bottom: 0.25rem;
 	text-decoration: none;
 	margin-left: 1.5rem;
@@ -43,6 +118,7 @@ html, body {
 	font-weight: bolder;
 	color: white;
 }
+
 .navbar li:hover{
 	transition: 0.3s;
 	border-bottom: 3px solid orange;
@@ -140,6 +216,8 @@ html, body {
 	background-position: center;
 	background-size: cover;
 	margin-bottom: 2rem;
+	
+
 }
 #aboutme {
 	display: block;
@@ -226,7 +304,7 @@ html, body {
 #plane {
 	position: sticky;
 	top: 25%;
-	transform: scale(1.3) rotate(90deg);
+	transform: scale(1.2) rotate(90deg);
 	z-index: 2;
 
 
@@ -244,6 +322,8 @@ html, body {
 	top: 25%;
 	right: -26.3%;
 }
+
+
 #twelve::after {
 	content: '';
 	position: absolute;
@@ -268,7 +348,7 @@ html, body {
 	font-family: monospace;overflow-wrap: break-word; text-align: center;
 	border: 0.125rem solid transparent;
 	border-radius: 1.3rem;
-	
+	flex-shrink: 1;
 			
 }
 
