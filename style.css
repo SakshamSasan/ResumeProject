@@ -3,6 +3,20 @@ html, body {
 	overflow-x: clip;
     height: auto;
 }
+@keyframes flash {
+	from {
+
+	}
+	to {
+		background-image: none;
+		background-color: rgba(255,0,0,0.6);
+		
+	}
+}
+
+#skills:target, #education:target, #projects:target, #contactme:target {
+	animation: flash 0.5s ease-in-out 2 alternate;
+}
 #head {
 
 	background-image: url("resumepics/bg.jpeg");
@@ -71,6 +85,7 @@ html, body {
 	justify-content: center;
 	padding: 1.3rem;
 	transition: all 0.1s;
+	z-index: 4;
 }
 #menu-div>div {
 	margin-top: 0.5rem;
@@ -143,6 +158,7 @@ html, body {
 	align-items: center;
 	display: flex;
 	justify-content: center;
+
 }
 
 
