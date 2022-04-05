@@ -3,6 +3,55 @@ html, body {
 	overflow-x: clip;
     height: auto;
 }
+.bg-dark,.navbar-dark {
+	background-color: black !important;
+}
+.navbar-brand div {
+		background-image: url("resumepics/pb.jpg");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 6rem;
+		width: 6rem;
+		display: inline-block;
+		margin: -1.5rem;
+		margin-top: 0rem;
+	}
+.navbar-nav a:hover {
+	transition: 0.3s;
+	border-bottom: 3px solid orange;
+}
+@media (min-width: 992px) {
+	.navbar-nav {
+    
+    margin:0 auto;
+    display: block;
+    text-align: center;
+	}
+
+	.navbar-nav > li {
+    display: inline-block;
+   
+	}
+
+}
+@media screen and (max-width: 900px) {
+
+	#profilepic{
+		transform: scale(0.8);
+	}
+	#glider {
+		left: 10% !important;
+		border-width: 0.2rem !important;
+	}
+	#seneca,#twelve,#ryan {
+		left: 28% !important;
+	}
+	#flex-ed>div::after {
+		right: 0% !important;
+		left: -49% !important;
+	}
+}
 @keyframes flash {
 	from {
 
@@ -33,114 +82,8 @@ html, body {
 	
 	
 }
-#bars {
-	color: white;
-	margin: 2rem;
-	transform: scale(1.5);
-	vertical-align: top;
-	position: absolute;
-	right: 0.1rem;
-	top: 0.5rem;
-	display: none;
-}
 
-@media screen and (max-width: 900px) {
 
-	#bars {
-		display: inline-block;
-	}
-	.navbar {
-		visibility: hidden;
-	}
-	#profilepic{
-		transform: scale(0.8);
-
-	}
-
-	#glider {
-
-		left: 10% !important;
-		border-width: 0.2rem !important;
-	}
-	#seneca,#twelve,#ryan {
-		left: 28% !important;
-	}
-	#flex-ed>div::after {
-		right: 0% !important;
-		left: -49% !important;
-	}
-}
-
-#menu-div {
-	transform: scale(0);
-	opacity: 0.9;
-	background-color: black;
-	width: 20vw;
-	height: auto;
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	top: 3rem;
-	right: 3rem;
-	justify-content: center;
-	padding: 1.3rem;
-	transition: all 0.1s;
-	z-index: 4;
-}
-#menu-div>div {
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	text-align: center;
-	font-size: 1rem;
-	font-family: sans-serif;
-}
-#menu-div a {
-	text-decoration: none;
-	color: rgba(255, 255, 255, 0.8);
-
-}
-#menu-div a:hover {
-	border-bottom: 2px solid orange;
-	transition: all 0.3s;
-}
-.dropdown:hover #menu-div{
-	transform: scale(1) ;
-}
-#bars:active #menu-div {
-	transform: scale(1) ;
-}
-#nav-bar {
-	height: 20%;
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 2rem;
-}
-.navbar {
-	height: 100%;
-	list-style: none;
-	color: white;
-	text-align: center;
-	
-}
-.navbar li{
-	padding-bottom: 0.25rem;
-	text-decoration: none;
-	margin-left: 1.5rem;
-	margin-right: 3.5rem;
-	margin-bottom: 1.5rem;
-	margin-top: 0rem;
-	display: inline-block;
-	font-family: sans-serif;
-	font-weight: bolder;
-	color: white;
-}
-
-.navbar li:hover{
-	transition: 0.3s;
-	border-bottom: 3px solid orange;
-}
 #socials {
 	margin-top:2rem ;
 	height: 80%;
