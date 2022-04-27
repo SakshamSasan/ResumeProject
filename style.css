@@ -63,9 +63,9 @@ html, body {
 	}
 }
 
-#skills:target, #education:target, #projects:target, #contactme:target {
+/*#skills:target, #education:target, #projects:target, #contactme:target {
 	animation: flash 0.5s ease-in-out 2 alternate;
-}
+}*/
 #head {
 
 	background-image: url("resumepics/bg.jpeg");
@@ -73,8 +73,8 @@ html, body {
 	background-size: contain;
 	height: auto;
 	width: 100vw;
-	/*display: flex;
-	flex-wrap: wrap;*/
+	display: flex;
+	flex-wrap: wrap;
 	margin-top: -20px;
 	background-attachment: fixed;
 	opacity: 0.94;
