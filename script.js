@@ -2,7 +2,7 @@
 
 var yCoord;
 var address;
-
+var id;
 /*dist is the yCoord of first section accessible by anchor i.e. About. I want
 it to be reached in 10 ms and others in multiples like 20ms, 30ms and 40ms....So it is sort of scale*/
 
@@ -14,10 +14,10 @@ destination of our scroll
 */
 
 function f(event) {
-  event.preventDefault();
+  // event.preventDefault();
   address=this.getAttribute('href');
   yCoord=document.querySelector(address).offsetTop;
-  var id = setInterval(smoothScroll,10)
+  id = setInterval(smoothScroll,10)
 
   function smoothScroll() {
     if((window.pageYOffset+dist)>=yCoord||(window.innerHeight + Math.ceil(window.pageYOffset + 300)) >= document.body.offsetHeight){
