@@ -21,7 +21,7 @@ function f(event) {
 
   function smoothScroll() {
     if((window.pageYOffset+dist)>=yCoord||(window.innerHeight + Math.ceil(window.pageYOffset + 300)) >= document.body.offsetHeight){
-      console.log(window.innerHeight,window.pageYOffset,document.body.offsetHeight)
+      console.log(window.innerHeight,window.pageYOffset,document.body.offsetHeight,dist)
       document.querySelector(address).style.animation = "flash 0.5s ease-in-out 2 alternate";
       clearInterval(id);
       return;
@@ -42,3 +42,19 @@ var anchorTags = document.getElementsByClassName('nav-link');
 for(var i=0; i<anchorTags.length;i++) {
   anchorTags[i].addEventListener('click',f);
 }
+
+
+//Skills Bar like animation 
+/*
+function f() {
+let coord=document.getElementById('education').getBoundingClientRect()
+  if((coord.top>=0&&coord.top<window.innerHeight)) {
+
+ console.log('if andar') ; document.getElementById('education').style.backgroundColor='blue'
+  }
+  else {
+  console.log('else andar');  document.getElementById('education').style.backgroundColor='red'
+  }
+}
+window.addEventListener('scroll',f)
+*/
