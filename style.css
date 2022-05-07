@@ -63,9 +63,9 @@ html, body {
 	}
 }
 
-/*#skills:target, #education:target, #projects:target, #contactme:target {
+#skills:target, #education:target, #projects:target, #contactme:target {
 	animation: flash 0.5s ease-in-out 2 alternate;
-}*/
+}
 #head {
 
 	background-image: url("resumepics/bg.jpeg");
