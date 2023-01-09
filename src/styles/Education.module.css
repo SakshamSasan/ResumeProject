@@ -1,0 +1,16 @@
+
+.org {
+    font-family: monospace;
+    color:rgb(136,146,176);
+    border-left :2px solid rgb(136,146,176);
+    cursor:pointer;
+}
+.org:hover{
+    background-color: rgba(136,146,176,0.1);
+    color:rgb(144,251,220)
+}
+.org_selected {
+    font-family: monospace;
+    color:rgb(144,251,220);
+    border-left :2px solid rgb(144,251,220);
+}

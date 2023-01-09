@@ -5,9 +5,67 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(13,25,45);
 }
-
+html{
+  scroll-behavior: smooth;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.section_heading {
+  display: inline-block;
+  color: white;
+  margin-left: 2rem;
+  position: relative;
+  top:0.5rem
+}
+
+.section_line {
+  display: inline-block;
+  width:40%;
+  height: 0;
+  border: 0.5px solid rgb(136,146,176);
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60{
+ width: 60%;
+}
+
+.wp-60{
+  width:60%;
+}
+p{
+  font-size: large;
+  line-height: 200%;
+  color:rgb(136,146,176)
+}
+.resize {
+  transform: scale(1.5);
+}
+a{
+  text-decoration: none !important;
+}
+.mt_10{
+  margin-top: 10rem;
+}
+.w-contact {
+  width:60%
+}
+.no-decoration{
+  text-decoration: none;
+}
+@media screen and (max-width:768px){
+  .wp-60{
+    width:100%
+  }
+  .w-contact {
+    width: 100%;
+  }
 }

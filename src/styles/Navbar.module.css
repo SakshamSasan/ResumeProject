@@ -1,0 +1,25 @@
+.w_4 {
+    width:4rem;
+}
+
+.icon{
+    outline: none;
+    border:none !important;
+    background-color: transparent;
+    color: transparent;
+}
+
+.aspectratio {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-image: url('../assets/resume.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width:992px){
+    .icon{
+        transform: scale(0);
+    }
+}

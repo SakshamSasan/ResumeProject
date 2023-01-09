@@ -1,0 +1,7 @@
+.icon{
+    color:rgb(117,127,152);
+    cursor: pointer;
+}
+.icon:hover{
+    color:rgb(144,251,220)
+}
