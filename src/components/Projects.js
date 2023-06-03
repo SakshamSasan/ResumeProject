@@ -126,8 +126,7 @@ function Projects(){
                             <div className={`rounded wp-60 ${classes.info2}`} >
                                             <span style={style.neon}>Redux managed SPA</span>
                                             <h4 className='my-3' style={style.white}>Pixity</h4>
-                                            <p className={classes.description}>A Spotify-like music player that features
-                                            songs, artists, functionality to like/dislike and edit user profiles etc. Users can sign up and start using the app</p>
+                                            <p className={classes.description}>A Redux managed single page movies app where users can search for movies and select their favourites from the list. Deployed on Github Pages</p>
                                             <span className='my-2 d-inline-block' style={{width:'60%',color:'rgb(150,159,187)'}}>ReactJS &nbsp; Redux &nbsp; Bootstrap &nbsp; Git &nbsp; oMDB API </span>
                                             <br />
                                             <span ><a href="https://github.com/SakshamSasan/Movies" target='_blank' style={style.white}><i className="fa-brands fa-github mx-4 d-inline-block resize"></i></a><a href='https://sakshamsasan.github.io/Movies/' target='_blank' style={style.white}><i className="fa-solid fa-link d-inline-block resize "></i></a></span>
