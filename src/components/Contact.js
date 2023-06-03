@@ -10,8 +10,8 @@ function ContactMe(){
                 <div className="col-10 d-flex flex-column align-items-center">
                     <h4 style={style.white} className="my-5">Get in Touch</h4>
                     <p className='w-contact text-center'>
-                        Graduated in April 2022 and freelanced for 4 months, I am looking for 
-                        more permanent opportunities. Whether you have any specific/general roles or just want to say hi,
+                        Graduated in April 2022 and been working ever since then, I am looking for 
+                        opportunities to help me grow and learn more. Whether you have any specific/general roles or just want to say hi,
                         you can contact me below:
                     </p>
                     <big className='my-5 d-flex justify-content-center flex-nowrap'>

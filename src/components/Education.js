@@ -57,7 +57,7 @@ function Education(){
                                 {edu=='CN'&&
                                 <>
                                 <h4 style={style.white}>Full-Stack Web Dev + DS/Algo</h4>
-                                <p className='mb-4'>Jan 20222 - Jan 2023</p>
+                                <p className='mb-4'>Jan 2022 - Jan 2023</p>
 
                                 <i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right me-2"></i> <p className='d-inline'>Completed Coding Ninjas
                                 MERN Stack and Python courses with top rankings. Mentored new students and assisted in doubt clearance</p>

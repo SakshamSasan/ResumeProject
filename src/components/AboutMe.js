@@ -34,28 +34,28 @@ function AboutMe(){
                 <p>I enjoy creating products that wow the customer/client and exceed their expectations.
                 My work is centered around perfecting every pixel of the app I am developing to deliver visually-stunning experiences.
                 I did my high school in India and have completed Advanced Diploma in Computer Engineering from <span style={{color:'rgb(144,251,220)'}}>Seneca College</span>.
-                I have freelancing experience in building web-apps. I am a full-stack(<span style={{color:'rgb(144,251,220)'}}>MERN</span>) developer and also well-versed with basics
-                of programming, <span style={{color:'rgb(144,251,220)'}}>Data Structures</span>,<span style={{color:'rgb(144,251,220)'}}>Algorithms</span> etc. Recently, a good portion of my time is also going in exploring software testing and
+                I have over 3+ years of experience in building web-apps . I am a full-stack<span style={{color:'rgb(144,251,220)'}}></span> developer well-versed in MERN stack, Angular, MySQL etc. and also the basics
+                of programming, <span style={{color:'rgb(144,251,220)'}}>Data Structures</span> and <span style={{color:'rgb(144,251,220)'}}>Algorithms</span>. Recently, a good portion of my time is also going in exploring software testing and
                 cloud computing 
                 </p>
                 <p>Here are some of the technologies I've recenlt worked with:</p>
                 <table className='m-auto my-5' style={{color:'rgb(136,146,176)',fontFamily:'monospace'}}>
                     <tr className='p-2' >
-                        <td className='d-inline-block my-2 ml-3 me-5'><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> JavaScript(ES6+)</td>
-                        <td><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> HTML, CSS</td>
+                        <td className='d-inline-block my-2 ml-3 me-5'><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> JavaScript(ES6+)/TypeScript</td>
+                        <td><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> Figma, Firebase</td>
                         
                     </tr>
                     <tr className='p-2'>
-                        <td className='d-inline-block my-2 ml-3 me-5'><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> React</td>
-                        <td><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> ExpressJS</td>
+                        <td className='d-inline-block my-2 ml-3 me-5'><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> React, React Native</td>
+                        <td><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> FastAPI, ExpressJS</td>
                     </tr>
                     <tr className='p-2'>
                         <td className='d-inline-block my-2 ml-3 me-5'><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> NodeJS</td>
-                        <td><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> MongoDB</td>
+                        <td><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> MySQL, MongoDB</td>
                     </tr>
                     <tr className='p-2'>
-                        <td className='d-inline-block my-2 ml-3 me-5'><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> AWS</td>
-                        <td><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> Python</td>
+                        <td className='d-inline-block my-2 ml-3 me-5'><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> Bootstrap/Material UI</td>
+                        <td><i style={{color:'rgb(144,251,220)'}} className="fa-solid fa-caret-right"></i> AWS/Git</td>
                     </tr>
                 </table>
                 </div>

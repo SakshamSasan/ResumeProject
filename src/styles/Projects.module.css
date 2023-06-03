@@ -17,8 +17,13 @@
     background-size: cover;
     background-image: url(../assets/blog.png);
 }
+.picSC{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/Scholarist.png);
+}
 .picMP {
-    position: absolute;
     height: 100%;
     background-position: center;
     background-size: cover;
