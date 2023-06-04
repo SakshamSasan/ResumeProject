@@ -42,38 +42,6 @@ function Projects(){
                     <div className='col-12 mt_10'>
 
                     </div>
-                    <div className='col-12 col-sm-8 col-lg-9 pt-4 my-5 m-auto'>
-                        <div style={{position:'relative'}} className='w-100 d-flex'>
-                            <div className={`rounded wp-60 ${classes.picJAS}`}>
-                                    <div className={classes.cover} style={{color:'transparent'}}>
-                                            <span >Music Player built using MERN Stack</span>
-                                            <h4 className='my-3' >JAS Music Lounge</h4>
-                                            <p className={classes.description2} >A Spotify-like music player that features
-                                            songs, artists, functionality to like/dislike and edit user profiles etc. Users can sign up and start using the app</p>
-                                            <span className='mt-2 d-inline-block' style={{width:'60%'}}>ReactJS &nbsp; ExpressJS &nbsp; PassportJS &nbsp; MongoDB &nbsp; BootStrap</span>
-                                            <br />
-                                            <span><i className="fa-brands fa-github mx-4 d-inline-block resize"></i><i className="fa-solid fa-link d-inline-block resize "></i></span>
-                                    </div>
-                            </div>
-
-                            <div className={`rounded wp-60 ${classes.info}`} >
-                                            <span style={style.neon}>Music Player built using MERN Stack</span>
-                                            <h4 className='my-3' style={style.white}>JAS Music Lounge</h4>
-                                            <p className={classes.description}>A Spotify-like music player that features
-                                            songs, artists, functionality to like/dislike and edit user profiles etc. Users can sign up and start using the app</p>
-                                            <span className='my-2 d-inline-block' style={{width:'60%',color:'rgb(150,159,187)'}}>ReactJS &nbsp; ExpressJS &nbsp; PassportJS &nbsp; MongoDB &nbsp; BootStrap</span>
-                                            <br />
-                                            <span ><a href="https://github.com/SakshamSasan/JASLounge" target='_blank' style={style.white}><i className="fa-brands fa-github mx-4 d-inline-block resize"></i></a><a href='https://jasmusic.herokuapp.com' target='_blank' style={style.white}><i className="fa-solid fa-link d-inline-block resize "></i></a></span>
-                            </div>
-                
-                        </div>
-                        
-
-                    </div>
-
-                    <div className='col-12 mt_10'>
-
-                    </div>
 
                     <div className='col-12 col-sm-8 col-lg-9 pt-4 my-5 m-auto '>
                         <div style={{position:'relative'}} className='w-100 d-flex'>
@@ -104,6 +72,39 @@ function Projects(){
                         
 
                     </div>
+                    <div className='col-12 mt_10'>
+
+                    </div>
+                    <div className='col-12 col-sm-8 col-lg-9 pt-4 my-5 m-auto'>
+                        <div style={{position:'relative'}} className='w-100 d-flex'>
+                            <div className={`rounded wp-60 ${classes.picJAS}`}>
+                                    <div className={classes.cover} style={{color:'transparent'}}>
+                                            <span >Music Player built using MERN Stack</span>
+                                            <h4 className='my-3' >JAS Music Lounge</h4>
+                                            <p className={classes.description2} >A Spotify-like music player that features
+                                            songs, artists, functionality to like/dislike and edit user profiles etc. Users can sign up and start using the app</p>
+                                            <span className='mt-2 d-inline-block' style={{width:'60%'}}>ReactJS &nbsp; ExpressJS &nbsp; PassportJS &nbsp; MongoDB &nbsp; BootStrap</span>
+                                            <br />
+                                            <span><i className="fa-brands fa-github mx-4 d-inline-block resize"></i><i className="fa-solid fa-link d-inline-block resize "></i></span>
+                                    </div>
+                            </div>
+
+                            <div className={`rounded wp-60 ${classes.info}`} >
+                                            <span style={style.neon}>Music Player built using MERN Stack</span>
+                                            <h4 className='my-3' style={style.white}>JAS Music Lounge</h4>
+                                            <p className={classes.description}>A Spotify-like music player that features
+                                            songs, artists, functionality to like/dislike and edit user profiles etc. Users can sign up and start using the app</p>
+                                            <span className='my-2 d-inline-block' style={{width:'60%',color:'rgb(150,159,187)'}}>ReactJS &nbsp; ExpressJS &nbsp; PassportJS &nbsp; MongoDB &nbsp; BootStrap</span>
+                                            <br />
+                                            <span ><a href="https://github.com/SakshamSasan/JASLounge" target='_blank' style={style.white}><i className="fa-brands fa-github mx-4 d-inline-block resize"></i></a><a href='https://jasmusic.herokuapp.com' target='_blank' style={style.white}><i className="fa-solid fa-link d-inline-block resize "></i></a></span>
+                            </div>
+                
+                        </div>
+                        
+
+                    </div>
+
+                    
 
                     <div className='col-12 mt_10'>
 
