@@ -96,7 +96,7 @@ function Projects(){
                                             songs, artists, functionality to like/dislike and edit user profiles etc. Users can sign up and start using the app</p>
                                             <span className='my-2 d-inline-block' style={{width:'60%',color:'rgb(150,159,187)'}}>ReactJS &nbsp; FastAPI &nbsp; Redux &nbsp; MySQL &nbsp; SQLAlchemy</span>
                                             <br />
-                                            <span ><a href="https://sakshamsasan.github.io/jasmusic/" target='_blank' style={style.white}><i className="fa-brands fa-github mx-4 d-inline-block resize"></i></a><a href='https://jasmusic.herokuapp.com' target='_blank' style={style.white}><i className="fa-solid fa-link d-inline-block resize "></i></a></span>
+                                            <span ><a href="https://github.com/SakshamSasan/jasmusic" target='_blank' style={style.white}><i className="fa-brands fa-github mx-4 d-inline-block resize"></i></a><a href='https://sakshamsasan.github.io/jasmusic/' target='_blank' style={style.white}><i className="fa-solid fa-link d-inline-block resize "></i></a></span>
                             </div>
                 
                         </div>
