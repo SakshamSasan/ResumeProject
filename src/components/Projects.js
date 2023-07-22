@@ -90,13 +90,13 @@ function Projects(){
                             </div>
 
                             <div className={`rounded wp-60 ${classes.info}`} >
-                                            <span style={style.neon}>Music Player built using MERN Stack</span>
+                                            <span style={style.neon}>Music Player built using FARM Stack</span>
                                             <h4 className='my-3' style={style.white}>JAS Music Lounge</h4>
                                             <p className={classes.description}>A Spotify-like music player that features
                                             songs, artists, functionality to like/dislike and edit user profiles etc. Users can sign up and start using the app</p>
-                                            <span className='my-2 d-inline-block' style={{width:'60%',color:'rgb(150,159,187)'}}>ReactJS &nbsp; ExpressJS &nbsp; PassportJS &nbsp; MongoDB &nbsp; BootStrap</span>
+                                            <span className='my-2 d-inline-block' style={{width:'60%',color:'rgb(150,159,187)'}}>ReactJS &nbsp; FastAPI &nbsp; Redux &nbsp; MySQL &nbsp; SQLAlchemy</span>
                                             <br />
-                                            <span ><a href="https://github.com/SakshamSasan/JASLounge" target='_blank' style={style.white}><i className="fa-brands fa-github mx-4 d-inline-block resize"></i></a><a href='https://jasmusic.herokuapp.com' target='_blank' style={style.white}><i className="fa-solid fa-link d-inline-block resize "></i></a></span>
+                                            <span ><a href="https://sakshamsasan.github.io/jasmusic/" target='_blank' style={style.white}><i className="fa-brands fa-github mx-4 d-inline-block resize"></i></a><a href='https://jasmusic.herokuapp.com' target='_blank' style={style.white}><i className="fa-solid fa-link d-inline-block resize "></i></a></span>
                             </div>
                 
                         </div>
@@ -110,7 +110,7 @@ function Projects(){
 
                     </div>
 
-                    <div className='col-12 col-sm-8 col-lg-9 pt-4 my-5 m-auto'>
+                    {/* <div className='col-12 col-sm-8 col-lg-9 pt-4 my-5 m-auto'>
                         <div style={{position:'relative'}} className='w-100 d-flex'>
                             <div className={`rounded wp-60 ${classes.picMP}`}>
                                     <div className={classes.cover} style={{color:'transparent'}}>
@@ -136,7 +136,7 @@ function Projects(){
                         </div>
                         
 
-                    </div>
+                    </div> */}
 
 
                     <div className='col-12 mt_10'>
